@@ -1,0 +1,81 @@
+@media screen and (max-width:1024px){
+/*  common  */
+  .wrap{
+    width: 700px;
+    height:100%;
+    padding: 0;
+  }
+  p{
+    font-size: 14px;
+  }
+/*  header  */
+  header .wrap{   
+    width: 95%;
+    margin: 0;
+  }
+  header .wrap nav{    
+    width: 700px;
+  }
+  header .wrap nav .gnb{
+    display: none; 
+  }
+  .logo a{
+    background-size: 191%;
+  }
+/*  title  */
+  #title .wrap .cube{
+    
+  }
+  #title .wrap .cube .text{   
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 1;
+  }
+  #title .wrap p{
+    font-size: 16px;
+  }
+/*  about  */
+  #about .wrap .address{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  #about .wrap .address div{
+  justify-content: center;
+  }
+  #about .wrap .address .aboutMe{
+    margin-top: 0px;
+  }
+  #about .wrap .address .aboutMe p{
+    width: 700px;
+    font-size:21px;
+  }
+/*  skill  */
+  #skill .wrap .mainSkill{
+    display: flex;
+    flex-direction: column;
+  }
+  #skill .wrap .mainSkill div:nth-child(2) h4{
+    background-size: 125%;
+  }
+/*  portfolio  */
+  #portfolio .wrap .work figure figcaption h3{
+    font-size: 24px;
+  }
+  #portfolio .wrap{
+    height: fit-content;
+  }
+/*  communication  */
+  #communication{
+    height: 800px;
+  }
+/* aside   */
+  .changecolor{
+    display: none;
+  }
+  .lotation{
+    display: none;
+  }
+}
